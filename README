@@ -16,45 +16,17 @@ Before getting started, ensure that you have Docker installed on your machine.
 
 1. Clone the repository to your local machine:
 
-    ```bash
+    ```
     git clone https://github.com/yourusername/your-repository.git
     ```
 
-2. Navigate to the project directory:
-
-    ```bash
-    cd your-repository
+2. To run the containers in the background, use:
     ```
+    docker compose up -d --build --force-recreate```
 
-3. Customize the `docker-compose.yml` file to suit your application's requirements.
-
-4. Build the Docker image:
-
-    ```bash
-    docker compose build
-    ```
-
-5. Run the Docker containers:
-
-    ```bash
-    docker compose up
-    ```
-
-    To run the containers in the background, use:
-
-    ```bash
-    docker compose up -d
-    ```
-
-6. Access your application:
+3. Access your application:
 
     Your application should now be accessible at `http://localhost:your_port`. Replace `your_port` with the actual port specified in your Docker Compose configuration.
-
-7. To stop the containers, use:
-
-    ```bash
-    docker-compose down
-    ```
 
 ## Additional Information
 
