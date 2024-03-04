@@ -1,0 +1,8 @@
+jupyter
+pandas==2.1.0
+matplotlib
+seaborn
+scipy
+fastapi
+uvicorn
+ipykernel
