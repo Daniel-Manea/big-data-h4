@@ -1,0 +1,68 @@
+Certainly! Here's the revised README to accurately reflect that Docker Compose comes bundled with Docker:
+
+---
+
+# Running Your Application with Docker Compose
+
+## Overview
+
+This Docker Compose setup allows you to run your application in a containerized environment. Docker Compose simplifies the process of defining and managing the services required for your application.
+
+## Prerequisites
+
+Before getting started, ensure that you have Docker installed on your machine.
+
+- Docker: [Install Docker](https://docs.docker.com/get-docker/)
+
+## Usage
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/yourusername/your-repository.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd your-repository
+    ```
+
+3. Customize the `docker-compose.yml` file to suit your application's requirements.
+
+4. Build the Docker image:
+
+    ```bash
+    docker compose build
+    ```
+
+5. Run the Docker containers:
+
+    ```bash
+    docker compose up
+    ```
+
+    To run the containers in the background, use:
+
+    ```bash
+    docker compose up -d
+    ```
+
+6. Access your application:
+
+    Your application should now be accessible at `http://localhost:your_port`. Replace `your_port` with the actual port specified in your Docker Compose configuration.
+
+7. To stop the containers, use:
+
+    ```bash
+    docker-compose down
+    ```
+
+## Additional Information
+
+- Learn more about Docker: [Docker Documentation](https://docs.docker.com/)
+- Docker Compose is included with Docker. Ensure you have Docker installed: [Install Docker](https://docs.docker.com/get-docker/)
+
+Feel free to reach out if you encounter any issues or have questions related to running your containerized application with Docker Compose.
+
+---
